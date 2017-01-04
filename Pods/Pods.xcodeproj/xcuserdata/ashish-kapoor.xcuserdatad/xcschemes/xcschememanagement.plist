@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BluetoothKit.xcscheme</key>
+		<key>BlueCapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>725E867502048C5151CFC46337E7D43C</key>
+		<key>65A06356B54F668A3778EE5BB62782D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E814B32650A99E2BD65693AEBE902025</key>
+		<key>77E96D88D80800FF4097C468A3B65C52</key>
 		<dict>
 			<key>primary</key>
 			<true/>

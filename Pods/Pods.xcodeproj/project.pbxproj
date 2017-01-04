@@ -7,144 +7,226 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02AEAF365409B63DA0D7812E7F4C102B /* BKAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15183ABE2C6B62178FDB3580F4AE3FC /* BKAvailability.swift */; };
-		07D7C4F54D4CD1D49CD0EE4CE2556D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		0AF7ED58EA73C7D1C20B4396F2B5F234 /* BKCentralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C7187C70C7B0C89331BDE178338692 /* BKCentralStateMachine.swift */; };
-		0C04E2F2F966CBB44D26885648E1008F /* Pods-iot-ble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C3E0F3E6A112E5D0F7AE4B40E62129 /* Pods-iot-ble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		124D0CAB009670402AC5C2811201D565 /* BKConnectionAttempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF366D92353BA8DDB7B12DD94CC18A8 /* BKConnectionAttempt.swift */; };
-		2EBEB8106EFFC9B875B4BFCB4EFE4810 /* BKSendDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F96CF82EDE14A375CDF861011B860BE /* BKSendDataTask.swift */; };
-		30E0539EAC9E17CB1CFA432EABA9F8DF /* BKDiscoveriesChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0646EE47D4A6A0E558225F582B62006F /* BKDiscoveriesChange.swift */; };
-		59F4241A2D5B4F932AC3D62CF8C6D61C /* BKScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E029DBC430CBABB9ABE0EE319524B50 /* BKScanner.swift */; };
-		5EBC0869D827D6D52D36741D63F79E64 /* BKPeripheralConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA60B87103CB93FD631BF5F3DEDFA5F /* BKPeripheralConfiguration.swift */; };
-		6579F1443A60C6A744DD5BAB050E9803 /* BluetoothKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAEE70F5CCDD22E1C2E6733C4B62BCC /* BluetoothKit-dummy.m */; };
-		6E2AAD0B49406D6321E1BD1FA497307A /* BKContinuousScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29212626E94ECE1BFE79695B31808217 /* BKContinuousScanner.swift */; };
-		7C243906DD0F512E79B1719DA22ADD63 /* BKConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C44232FD2EB8BEA139D583B625095 /* BKConfiguration.swift */; };
-		7FE30B6906F54D60F560704B49058C92 /* BKDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702C1F2D6DDA5D95406439661BCD3A60 /* BKDiscovery.swift */; };
-		852CA8F407FD445A1B6B5A4E2CDB440C /* BKConnectionPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA152403C3A3F9411679798F4C756916 /* BKConnectionPool.swift */; };
-		8651A052AF6B24B8156176D68546AE76 /* BKCBPeripheralDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084D421D38CB759602DA46B8DB0810CD /* BKCBPeripheralDelegateProxy.swift */; };
-		8EAFEAD007DA854C57B67B23917B034B /* Pods-iot-ble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A3608E5EDA88931833F00014F7132 /* Pods-iot-ble-dummy.m */; };
-		9BC60D0AE6725E2E14122EF5F56ED291 /* BluetoothKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BB545DA34E9203F0E0DB10B9E2078D /* BluetoothKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A927254BDB3114B61DAE5EA002D7D362 /* BKRemoteCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161D3B683FC2D947C67C90E3A9BDF0FF /* BKRemoteCentral.swift */; };
-		B11FC6E88FD81B1CEEF745C7CE80C119 /* BKPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEEB482C569DEC8BF9D41ABB222BB7A /* BKPeripheral.swift */; };
-		B50B10E81FFF574FE70DCAC581A5C3C4 /* BKCBCentralManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEEAFA102690E54C01237CF0318374E /* BKCBCentralManagerDelegateProxy.swift */; };
-		CD2E5D648D8770B810183E299E16840E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D741CF3A0701E3C331011A67D587FD0C /* BluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFD7C85C7B9512E04B5E1988E759725 /* BluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF6FDD8F70E0A9E9F6093CB1F0078F4C /* BKCBPeripheralManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFF32AAB2E9721C2DA688AAFD3D122 /* BKCBPeripheralManagerDelegateProxy.swift */; };
-		E2A6E971E3EB3D0340FFC4CA1BB1738B /* BKCental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D30582403724C3B03A2D68B460586 /* BKCental.swift */; };
-		EDFC1B19F79918C731C9D702E034BB21 /* BKPeripheralStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD05C0EBBCE5BDBAC37399E2A7D1D047 /* BKPeripheralStateMachine.swift */; };
-		F9BD6F2217DA90FC7720697031EA5AAB /* BKRemotePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8045C319CCDE5FEB916E93EBAE1DE6 /* BKRemotePeripheral.swift */; };
+		02E61796589EC5F983F5B1185DBE2A23 /* Int32+Deserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8AF2D1AF7EBE43E42A0F1B83AD6D7A /* Int32+Deserializable.swift */; };
+		05A941974562B3D8EEA8AB6763093479 /* Uint8+Deserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71344316A3BAAE6BB3551BCE5E2F4A88 /* Uint8+Deserializable.swift */; };
+		0761859A92648D8FF02F36526D171660 /* MutableCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D3B763F483470F76E3234F6D581E58 /* MutableCharacteristic.swift */; };
+		0775591A8CD921D8D372A572A5FACF13 /* Pods-iot-ble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A3608E5EDA88931833F00014F7132 /* Pods-iot-ble-dummy.m */; };
+		159C42BE936E9A125DB3AFE301F93FF9 /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A646543AAC4EC234B34FD0CC1642E71A /* Peripheral.swift */; };
+		20BEAB2FE056F06C279612530143C918 /* CircularRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739E35F3E0E89411842D27E67E2C51C6 /* CircularRegion.swift */; };
+		259D955293D6EC4503C5E232D4E318C3 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB047B5B24C658F8A9B0C6FC3DE6A9 /* LocationManager.swift */; };
+		2CBC29EED483AC4D429D25C2B5B45AD6 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D539CFB05E483034451E90AC3C3A8893 /* Beacon.swift */; };
+		30758CD9C1C2A3B25BDC01DD9275D813 /* SerDe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A772132C4F5C390759830D7ADB2953CB /* SerDe.swift */; };
+		3775EE3FB80CE32C9331DC70886A8B97 /* TiSensorTagProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2D3D2F992E1E04152EABED5A846E0 /* TiSensorTagProfiles.swift */; };
+		39FE0BCE8ACDF61119A4B43CA663DC63 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634445A361AFD6F4473DF0478C2AABBA /* Errors.swift */; };
+		4F918655C74F08DAF0C8E2862FB21935 /* MutableService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24974C654A8A0505FC2E83F5287B44ED /* MutableService.swift */; };
+		52EBD78A04E77A5357306BE169B67502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11A285393B1117873E3B43F2B7F380B /* Foundation.framework */; };
+		63BC1461A0F68F7B00E96834CAAF1EE8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A180FF898DDB85A1CA44AFFF826251 /* CoreBluetooth.framework */; };
+		65B35F7D5A5A566E6C9916DFE60D9077 /* CLProximityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3E1FCD597DB286E3A2FB6D7911C5E2 /* CLProximityExtension.swift */; };
+		6B9DFA95296520A7039AA0E11BA9730C /* BlueCapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33151ACCC4D1CEC55F900C9409FEAE7D /* BlueCapKit-dummy.m */; };
+		71620156C508FFFA0A0190CDFBCE67B5 /* Int8+Deserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3AD4CF4FA24078D9D3B082901B37D4 /* Int8+Deserializable.swift */; };
+		73808B2F2F758D2892FE1ACF3111DB69 /* RegionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF4402834CD485E9FE421D3AE08E426 /* RegionManager.swift */; };
+		764DA5061CE740DC322C57CFF889C6DA /* SimpleFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61BF4CDEEB4C96D55BD0F8012522E20 /* SimpleFutures.swift */; };
+		7860A58F2A927AAE8435CC604BFDDDEF /* NordicProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBD8104089E94F0C0B6EADE3A53BF28 /* NordicProfiles.swift */; };
+		8196C63FB8F75AB6F3E7392605107350 /* Characteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5664EC4760605186443952BA4A16C /* Characteristic.swift */; };
+		8B066FE25B14A21F4627A9B409C1296C /* Data+Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A596FC6C24565D67DBB9F31880FFFA /* Data+Serializable.swift */; };
+		8D7A7C28A3C9BD5963F3379F34D205A4 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC981C6BB1C8DA95580B77752A7CCE5 /* ProfileManager.swift */; };
+		8EA72FB0AA3B85FE87804B291A45F09C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76062ABF4FC3FCF1B465ED50534AB3F /* CoreLocation.framework */; };
+		93E394ED7B4CE8E8EC3CFE7F506E60B5 /* BeaconRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592218211080AF160F31092C48F1590 /* BeaconRegion.swift */; };
+		95E86D66B1E0B6F9C8C053CDDE20471A /* BLESIGGATTProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAD84F37C93BE6C63EC7DC72562DE99 /* BLESIGGATTProfiles.swift */; };
+		9A0D8EABE5090C89E0CBCF991F76EFDE /* CentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CA0314210098B70D4DDF54D7480B75 /* CentralManager.swift */; };
+		9CA5140CFA2FB230AA5A0E95A4DACCA6 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374805AA0F13E287149FAF48E5F4A670 /* Region.swift */; };
+		A911AD2B6B972F8DD85CDF02D12C8B22 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293A34E6277200910B02DAAB7E34DB1D /* PeripheralManager.swift */; };
+		B09D8CE3528EB210232D4AFB0379A032 /* ServiceProfileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EC4977D6C440DBC90E43C14CFCC5B6 /* ServiceProfileUtils.swift */; };
+		B42720BEE466F01ADDAAEF87B9268A0F /* Int16+Deserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE3A23F14FB3F46E8536FAEADAEB523 /* Int16+Deserializable.swift */; };
+		BF0A44CD3C196DD1216A9FB658B8E6AA /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29022DF1F586E101765F73EAA2841961 /* BeaconManager.swift */; };
+		D2DEA711462FF1D03F9FA6BC061208C6 /* String+BlueCap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE7B7D91E13A3748FF2479BA0B7E5E2 /* String+BlueCap.swift */; };
+		D7A94AE335EC906265DEDEF1DC31F2F3 /* BlueCapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DE891DED2E62B2BAC4B440284FF3D4 /* BlueCapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D981C19CED6080496785376E8FB53F76 /* CharacteristicProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C465772CC08C6B2322A9A4C9F611CA /* CharacteristicProfile.swift */; };
+		DD58339526749B732B128539321058BA /* UInt16+Deserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45633D45685556C7F5B3BED87524EBB5 /* UInt16+Deserializable.swift */; };
+		E20B5CF87EE02A742F38B514C3249090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11A285393B1117873E3B43F2B7F380B /* Foundation.framework */; };
+		E2C6C21F839BF27779BFFA4996459FDC /* UInt32+Deserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE82D0CC159DF95C1C5B262CA90B473 /* UInt32+Deserializable.swift */; };
+		E427D887127A3F0CE5657F7546040F86 /* Pods-iot-ble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66C3E0F3E6A112E5D0F7AE4B40E62129 /* Pods-iot-ble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5629D38E58B9E52608A023B27F25039 /* Injectables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186780805FF65CC5EFDCA1A752DA3B08 /* Injectables.swift */; };
+		E71025AC712334DAAF713242EA09452E /* Double+BlueCap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108C4ADF7DE9F359790971E32F503604 /* Double+BlueCap.swift */; };
+		EA812D2FFB3293E42566805F83228653 /* ServiceProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7623BC6D71A8DAE830093F6ABF4BF093 /* ServiceProfile.swift */; };
+		EC0608A22A971CCD14ED6DC6E6E8D513 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A519F402D11D95A80A1F27F665A7D5 /* Service.swift */; };
+		EE8C008907F71F6C98C4C4C3FFF15DF3 /* GnosusProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBC57DB70AE82E648C325D4AFB3F278 /* GnosusProfiles.swift */; };
+		F472C0E4F6DEA65C5BFB29A44A5713B2 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70436484AA774B017DA3F8FD2ACFC8BC /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5C09BD277DBD742D070976B461BE608C /* PBXContainerItemProxy */ = {
+		7B847C0EE13B2A49FF95D6ABA63FD31C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E814B32650A99E2BD65693AEBE902025;
-			remoteInfo = BluetoothKit;
+			remoteGlobalIDString = 65A06356B54F668A3778EE5BB62782D1;
+			remoteInfo = BlueCapKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0646EE47D4A6A0E558225F582B62006F /* BKDiscoveriesChange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKDiscoveriesChange.swift; path = Source/BKDiscoveriesChange.swift; sourceTree = "<group>"; };
-		084D421D38CB759602DA46B8DB0810CD /* BKCBPeripheralDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKCBPeripheralDelegateProxy.swift; path = Source/BKCBPeripheralDelegateProxy.swift; sourceTree = "<group>"; };
+		05A596FC6C24565D67DBB9F31880FFFA /* Data+Serializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serializable.swift"; path = "BlueCapKit/SerDe/Data+Serializable.swift"; sourceTree = "<group>"; };
+		08A180FF898DDB85A1CA44AFFF826251 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		0B8AF2D1AF7EBE43E42A0F1B83AD6D7A /* Int32+Deserializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int32+Deserializable.swift"; path = "BlueCapKit/SerDe/Int32+Deserializable.swift"; sourceTree = "<group>"; };
+		0FF4402834CD485E9FE421D3AE08E426 /* RegionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegionManager.swift; path = BlueCapKit/External/FutureLocation/RegionManager.swift; sourceTree = "<group>"; };
+		108C4ADF7DE9F359790971E32F503604 /* Double+BlueCap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Double+BlueCap.swift"; path = "BlueCapKit/Extensions/Double+BlueCap.swift"; sourceTree = "<group>"; };
 		115897E453EE86736F405A93AEAA4900 /* Pods-iot-ble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iot-ble.modulemap"; sourceTree = "<group>"; };
-		161D3B683FC2D947C67C90E3A9BDF0FF /* BKRemoteCentral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKRemoteCentral.swift; path = Source/BKRemoteCentral.swift; sourceTree = "<group>"; };
-		29212626E94ECE1BFE79695B31808217 /* BKContinuousScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKContinuousScanner.swift; path = Source/BKContinuousScanner.swift; sourceTree = "<group>"; };
-		2E3D30582403724C3B03A2D68B460586 /* BKCental.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKCental.swift; path = Source/BKCental.swift; sourceTree = "<group>"; };
-		2F96CF82EDE14A375CDF861011B860BE /* BKSendDataTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKSendDataTask.swift; path = Source/BKSendDataTask.swift; sourceTree = "<group>"; };
-		34BB545DA34E9203F0E0DB10B9E2078D /* BluetoothKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BluetoothKit-umbrella.h"; sourceTree = "<group>"; };
-		3A93ADBD42A115FFE495C56C5A132DD2 /* BluetoothKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BluetoothKit.xcconfig; sourceTree = "<group>"; };
-		3E029DBC430CBABB9ABE0EE319524B50 /* BKScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKScanner.swift; path = Source/BKScanner.swift; sourceTree = "<group>"; };
-		40F86F43820F5091BFE60DF1BF9A9FD4 /* BluetoothKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BluetoothKit-prefix.pch"; sourceTree = "<group>"; };
+		186780805FF65CC5EFDCA1A752DA3B08 /* Injectables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Injectables.swift; path = BlueCapKit/Injectables.swift; sourceTree = "<group>"; };
+		24974C654A8A0505FC2E83F5287B44ED /* MutableService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutableService.swift; path = BlueCapKit/PeripheralManager/MutableService.swift; sourceTree = "<group>"; };
+		29022DF1F586E101765F73EAA2841961 /* BeaconManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconManager.swift; path = BlueCapKit/External/FutureLocation/BeaconManager.swift; sourceTree = "<group>"; };
+		293A34E6277200910B02DAAB7E34DB1D /* PeripheralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeripheralManager.swift; path = BlueCapKit/PeripheralManager/PeripheralManager.swift; sourceTree = "<group>"; };
+		328ABB92E0BCCF1C286D9F1D11EED853 /* BlueCapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueCapKit-prefix.pch"; sourceTree = "<group>"; };
+		33151ACCC4D1CEC55F900C9409FEAE7D /* BlueCapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueCapKit-dummy.m"; sourceTree = "<group>"; };
+		33EC4977D6C440DBC90E43C14CFCC5B6 /* ServiceProfileUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceProfileUtils.swift; path = "BlueCapKit/Service Profile Definitions/ServiceProfileUtils.swift"; sourceTree = "<group>"; };
+		374805AA0F13E287149FAF48E5F4A670 /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = BlueCapKit/External/FutureLocation/Region.swift; sourceTree = "<group>"; };
+		45633D45685556C7F5B3BED87524EBB5 /* UInt16+Deserializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt16+Deserializable.swift"; path = "BlueCapKit/SerDe/UInt16+Deserializable.swift"; sourceTree = "<group>"; };
 		4A6B8145777668BDC3D4EE6159F425C5 /* Pods-iot-ble-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iot-ble-frameworks.sh"; sourceTree = "<group>"; };
-		4AFFF32AAB2E9721C2DA688AAFD3D122 /* BKCBPeripheralManagerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKCBPeripheralManagerDelegateProxy.swift; path = Source/BKCBPeripheralManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		4BE3A23F14FB3F46E8536FAEADAEB523 /* Int16+Deserializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int16+Deserializable.swift"; path = "BlueCapKit/SerDe/Int16+Deserializable.swift"; sourceTree = "<group>"; };
+		4CD5664EC4760605186443952BA4A16C /* Characteristic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Characteristic.swift; path = BlueCapKit/Central/Characteristic.swift; sourceTree = "<group>"; };
 		4F673D251189989138934626C3A0622F /* Pods-iot-ble-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iot-ble-resources.sh"; sourceTree = "<group>"; };
-		5DEEB482C569DEC8BF9D41ABB222BB7A /* BKPeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKPeripheral.swift; path = Source/BKPeripheral.swift; sourceTree = "<group>"; };
+		5C3AD4CF4FA24078D9D3B082901B37D4 /* Int8+Deserializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int8+Deserializable.swift"; path = "BlueCapKit/SerDe/Int8+Deserializable.swift"; sourceTree = "<group>"; };
+		634445A361AFD6F4473DF0478C2AABBA /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = BlueCapKit/Errors.swift; sourceTree = "<group>"; };
 		66C3E0F3E6A112E5D0F7AE4B40E62129 /* Pods-iot-ble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iot-ble-umbrella.h"; sourceTree = "<group>"; };
-		6DAEE70F5CCDD22E1C2E6733C4B62BCC /* BluetoothKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BluetoothKit-dummy.m"; sourceTree = "<group>"; };
-		702C1F2D6DDA5D95406439661BCD3A60 /* BKDiscovery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKDiscovery.swift; path = Source/BKDiscovery.swift; sourceTree = "<group>"; };
-		70DBE7A075FDA36AFF259329AE63C593 /* Pods_iot_ble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iot_ble.framework; path = "Pods-iot-ble.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C8DDA98E71201C2145F835FB6E15EB1 /* BluetoothKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BluetoothKit.modulemap; sourceTree = "<group>"; };
-		7FFD7C85C7B9512E04B5E1988E759725 /* BluetoothKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BluetoothKit.h; path = Umbrella/BluetoothKit.h; sourceTree = "<group>"; };
-		89C7187C70C7B0C89331BDE178338692 /* BKCentralStateMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKCentralStateMachine.swift; path = Source/BKCentralStateMachine.swift; sourceTree = "<group>"; };
+		70436484AA774B017DA3F8FD2ACFC8BC /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = BlueCapKit/Utilities/Logger.swift; sourceTree = "<group>"; };
+		71344316A3BAAE6BB3551BCE5E2F4A88 /* Uint8+Deserializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Uint8+Deserializable.swift"; path = "BlueCapKit/SerDe/Uint8+Deserializable.swift"; sourceTree = "<group>"; };
+		739E35F3E0E89411842D27E67E2C51C6 /* CircularRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularRegion.swift; path = BlueCapKit/External/FutureLocation/CircularRegion.swift; sourceTree = "<group>"; };
+		74D3B763F483470F76E3234F6D581E58 /* MutableCharacteristic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MutableCharacteristic.swift; path = BlueCapKit/PeripheralManager/MutableCharacteristic.swift; sourceTree = "<group>"; };
+		75C465772CC08C6B2322A9A4C9F611CA /* CharacteristicProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacteristicProfile.swift; path = "BlueCapKit/Service Profiles/CharacteristicProfile.swift"; sourceTree = "<group>"; };
+		7623BC6D71A8DAE830093F6ABF4BF093 /* ServiceProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceProfile.swift; path = "BlueCapKit/Service Profiles/ServiceProfile.swift"; sourceTree = "<group>"; };
+		7D86953F81DF35D0B5B8EA710102EC5D /* Pods_iot_ble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iot_ble.framework; path = "Pods-iot-ble.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A519F402D11D95A80A1F27F665A7D5 /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = BlueCapKit/Central/Service.swift; sourceTree = "<group>"; };
+		89CA0314210098B70D4DDF54D7480B75 /* CentralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CentralManager.swift; path = BlueCapKit/Central/CentralManager.swift; sourceTree = "<group>"; };
 		8CCDB7C3D03E281E25B2C2243FF5E40C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E45113FF5E9DF07A547E61172DB332C /* Pods-iot-ble-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iot-ble-acknowledgements.plist"; sourceTree = "<group>"; };
-		8EF366D92353BA8DDB7B12DD94CC18A8 /* BKConnectionAttempt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKConnectionAttempt.swift; path = Source/BKConnectionAttempt.swift; sourceTree = "<group>"; };
+		8EBC57DB70AE82E648C325D4AFB3F278 /* GnosusProfiles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GnosusProfiles.swift; path = "BlueCapKit/Service Profile Definitions/GnosusProfiles.swift"; sourceTree = "<group>"; };
+		8FE7B7D91E13A3748FF2479BA0B7E5E2 /* String+BlueCap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+BlueCap.swift"; path = "BlueCapKit/Extensions/String+BlueCap.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		977296DF03C3CC0D0861DF6FBE8F663F /* Pods-iot-ble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iot-ble.release.xcconfig"; sourceTree = "<group>"; };
 		9A5A3608E5EDA88931833F00014F7132 /* Pods-iot-ble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iot-ble-dummy.m"; sourceTree = "<group>"; };
-		9C8045C319CCDE5FEB916E93EBAE1DE6 /* BKRemotePeripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKRemotePeripheral.swift; path = Source/BKRemotePeripheral.swift; sourceTree = "<group>"; };
+		A592218211080AF160F31092C48F1590 /* BeaconRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeaconRegion.swift; path = BlueCapKit/External/FutureLocation/BeaconRegion.swift; sourceTree = "<group>"; };
+		A646543AAC4EC234B34FD0CC1642E71A /* Peripheral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Peripheral.swift; path = BlueCapKit/Central/Peripheral.swift; sourceTree = "<group>"; };
 		A6B925CF99C58292A0555A2F7EE72CA1 /* Pods-iot-ble-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iot-ble-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AA152403C3A3F9411679798F4C756916 /* BKConnectionPool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKConnectionPool.swift; path = Source/BKConnectionPool.swift; sourceTree = "<group>"; };
-		AD05C0EBBCE5BDBAC37399E2A7D1D047 /* BKPeripheralStateMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKPeripheralStateMachine.swift; path = Source/BKPeripheralStateMachine.swift; sourceTree = "<group>"; };
-		ADA60B87103CB93FD631BF5F3DEDFA5F /* BKPeripheralConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKPeripheralConfiguration.swift; path = Source/BKPeripheralConfiguration.swift; sourceTree = "<group>"; };
-		ADEEAFA102690E54C01237CF0318374E /* BKCBCentralManagerDelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKCBCentralManagerDelegateProxy.swift; path = Source/BKCBCentralManagerDelegateProxy.swift; sourceTree = "<group>"; };
-		BD10816744543AF1BCDC32E71183F5C9 /* BluetoothKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BluetoothKit.framework; path = BluetoothKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A772132C4F5C390759830D7ADB2953CB /* SerDe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerDe.swift; path = BlueCapKit/SerDe/SerDe.swift; sourceTree = "<group>"; };
+		B4DE891DED2E62B2BAC4B440284FF3D4 /* BlueCapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueCapKit-umbrella.h"; sourceTree = "<group>"; };
+		C11A285393B1117873E3B43F2B7F380B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C3B2D3D2F992E1E04152EABED5A846E0 /* TiSensorTagProfiles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TiSensorTagProfiles.swift; path = "BlueCapKit/Service Profile Definitions/TiSensorTagProfiles.swift"; sourceTree = "<group>"; };
 		C4485C46905923D02A85B8FE5150929C /* Pods-iot-ble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iot-ble.debug.xcconfig"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D65C44232FD2EB8BEA139D583B625095 /* BKConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKConfiguration.swift; path = Source/BKConfiguration.swift; sourceTree = "<group>"; };
-		DE91001459974446241B81D411DA5B29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E15183ABE2C6B62178FDB3580F4AE3FC /* BKAvailability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BKAvailability.swift; path = Source/BKAvailability.swift; sourceTree = "<group>"; };
+		D539CFB05E483034451E90AC3C3A8893 /* Beacon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Beacon.swift; path = BlueCapKit/External/FutureLocation/Beacon.swift; sourceTree = "<group>"; };
+		D61BF4CDEEB4C96D55BD0F8012522E20 /* SimpleFutures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleFutures.swift; path = BlueCapKit/External/SimpleFutures/SimpleFutures.swift; sourceTree = "<group>"; };
+		DA3E1FCD597DB286E3A2FB6D7911C5E2 /* CLProximityExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLProximityExtension.swift; path = BlueCapKit/External/FutureLocation/CLProximityExtension.swift; sourceTree = "<group>"; };
+		DBCB047B5B24C658F8A9B0C6FC3DE6A9 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = BlueCapKit/External/FutureLocation/LocationManager.swift; sourceTree = "<group>"; };
+		DD2157667ED3E319F4F7822321CC422C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E503BD01C44ECAF91D6420D6AFE614A3 /* BlueCapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BlueCapKit.modulemap; sourceTree = "<group>"; };
+		E76062ABF4FC3FCF1B465ED50534AB3F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		F1F7ABAF0B50C4B28FC8CB207951E0AC /* BlueCapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueCapKit.xcconfig; sourceTree = "<group>"; };
+		F909580251C8E140CEC45C03C40686C1 /* BlueCapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BlueCapKit.framework; path = BlueCapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC981C6BB1C8DA95580B77752A7CCE5 /* ProfileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileManager.swift; path = "BlueCapKit/Service Profiles/ProfileManager.swift"; sourceTree = "<group>"; };
+		FBE82D0CC159DF95C1C5B262CA90B473 /* UInt32+Deserializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UInt32+Deserializable.swift"; path = "BlueCapKit/SerDe/UInt32+Deserializable.swift"; sourceTree = "<group>"; };
+		FCBD8104089E94F0C0B6EADE3A53BF28 /* NordicProfiles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NordicProfiles.swift; path = "BlueCapKit/Service Profile Definitions/NordicProfiles.swift"; sourceTree = "<group>"; };
+		FEAD84F37C93BE6C63EC7DC72562DE99 /* BLESIGGATTProfiles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BLESIGGATTProfiles.swift; path = "BlueCapKit/Service Profile Definitions/BLESIGGATTProfiles.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B0A45C1ECF6EBD59FE82D4402504CC4 /* Frameworks */ = {
+		0DD0A40BA37E213972866525CC569DA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D7C4F54D4CD1D49CD0EE4CE2556D11 /* Foundation.framework in Frameworks */,
+				E20B5CF87EE02A742F38B514C3249090 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6FDD373334EE71302862283B3279B90 /* Frameworks */ = {
+		3AE6790DB3019D218163DE1B2C5318A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2E5D648D8770B810183E299E16840E /* Foundation.framework in Frameworks */,
+				63BC1461A0F68F7B00E96834CAAF1EE8 /* CoreBluetooth.framework in Frameworks */,
+				8EA72FB0AA3B85FE87804B291A45F09C /* CoreLocation.framework in Frameworks */,
+				52EBD78A04E77A5357306BE169B67502 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		435B247A9000EB39C4699F3D7C97CA1E /* Pods */ = {
+		0BF7D2F33B94998DDBCB3DF4CEFA6EEA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BB7C96CC98A767203B31ED9D8E673C10 /* BluetoothKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		589F0435673200082FADC3FDC0754E30 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C8DDA98E71201C2145F835FB6E15EB1 /* BluetoothKit.modulemap */,
-				3A93ADBD42A115FFE495C56C5A132DD2 /* BluetoothKit.xcconfig */,
-				6DAEE70F5CCDD22E1C2E6733C4B62BCC /* BluetoothKit-dummy.m */,
-				40F86F43820F5091BFE60DF1BF9A9FD4 /* BluetoothKit-prefix.pch */,
-				34BB545DA34E9203F0E0DB10B9E2078D /* BluetoothKit-umbrella.h */,
-				DE91001459974446241B81D411DA5B29 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BluetoothKit";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				08A180FF898DDB85A1CA44AFFF826251 /* CoreBluetooth.framework */,
+				E76062ABF4FC3FCF1B465ED50534AB3F /* CoreLocation.framework */,
+				C11A285393B1117873E3B43F2B7F380B /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BF7D2F33B94998DDBCB3DF4CEFA6EEA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2338933CB87AE12C5AA11C3BBDB3FDEA /* BlueCapKit */ = {
+			isa = PBXGroup;
+			children = (
+				D539CFB05E483034451E90AC3C3A8893 /* Beacon.swift */,
+				29022DF1F586E101765F73EAA2841961 /* BeaconManager.swift */,
+				A592218211080AF160F31092C48F1590 /* BeaconRegion.swift */,
+				FEAD84F37C93BE6C63EC7DC72562DE99 /* BLESIGGATTProfiles.swift */,
+				89CA0314210098B70D4DDF54D7480B75 /* CentralManager.swift */,
+				4CD5664EC4760605186443952BA4A16C /* Characteristic.swift */,
+				75C465772CC08C6B2322A9A4C9F611CA /* CharacteristicProfile.swift */,
+				739E35F3E0E89411842D27E67E2C51C6 /* CircularRegion.swift */,
+				DA3E1FCD597DB286E3A2FB6D7911C5E2 /* CLProximityExtension.swift */,
+				05A596FC6C24565D67DBB9F31880FFFA /* Data+Serializable.swift */,
+				108C4ADF7DE9F359790971E32F503604 /* Double+BlueCap.swift */,
+				634445A361AFD6F4473DF0478C2AABBA /* Errors.swift */,
+				8EBC57DB70AE82E648C325D4AFB3F278 /* GnosusProfiles.swift */,
+				186780805FF65CC5EFDCA1A752DA3B08 /* Injectables.swift */,
+				4BE3A23F14FB3F46E8536FAEADAEB523 /* Int16+Deserializable.swift */,
+				0B8AF2D1AF7EBE43E42A0F1B83AD6D7A /* Int32+Deserializable.swift */,
+				5C3AD4CF4FA24078D9D3B082901B37D4 /* Int8+Deserializable.swift */,
+				DBCB047B5B24C658F8A9B0C6FC3DE6A9 /* LocationManager.swift */,
+				70436484AA774B017DA3F8FD2ACFC8BC /* Logger.swift */,
+				74D3B763F483470F76E3234F6D581E58 /* MutableCharacteristic.swift */,
+				24974C654A8A0505FC2E83F5287B44ED /* MutableService.swift */,
+				FCBD8104089E94F0C0B6EADE3A53BF28 /* NordicProfiles.swift */,
+				A646543AAC4EC234B34FD0CC1642E71A /* Peripheral.swift */,
+				293A34E6277200910B02DAAB7E34DB1D /* PeripheralManager.swift */,
+				FAC981C6BB1C8DA95580B77752A7CCE5 /* ProfileManager.swift */,
+				374805AA0F13E287149FAF48E5F4A670 /* Region.swift */,
+				0FF4402834CD485E9FE421D3AE08E426 /* RegionManager.swift */,
+				A772132C4F5C390759830D7ADB2953CB /* SerDe.swift */,
+				82A519F402D11D95A80A1F27F665A7D5 /* Service.swift */,
+				7623BC6D71A8DAE830093F6ABF4BF093 /* ServiceProfile.swift */,
+				33EC4977D6C440DBC90E43C14CFCC5B6 /* ServiceProfileUtils.swift */,
+				D61BF4CDEEB4C96D55BD0F8012522E20 /* SimpleFutures.swift */,
+				8FE7B7D91E13A3748FF2479BA0B7E5E2 /* String+BlueCap.swift */,
+				C3B2D3D2F992E1E04152EABED5A846E0 /* TiSensorTagProfiles.swift */,
+				45633D45685556C7F5B3BED87524EBB5 /* UInt16+Deserializable.swift */,
+				FBE82D0CC159DF95C1C5B262CA90B473 /* UInt32+Deserializable.swift */,
+				71344316A3BAAE6BB3551BCE5E2F4A88 /* Uint8+Deserializable.swift */,
+				95CAF2B65883CFD94506DF009FB13799 /* Support Files */,
+			);
+			name = BlueCapKit;
+			path = BlueCapKit;
+			sourceTree = "<group>";
+		};
+		67F2196E2A3D2C79B8B8C76615FEFF9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2338933CB87AE12C5AA11C3BBDB3FDEA /* BlueCapKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				435B247A9000EB39C4699F3D7C97CA1E /* Pods */,
-				CCAF3B55449470B778AD13BE7D51F208 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				67F2196E2A3D2C79B8B8C76615FEFF9B /* Pods */,
+				FFBF1BB208EF43090C2A4BDCD82F149F /* Products */,
 				7F6A701C79E451F99A4BEFF7F0B78015 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -155,6 +237,20 @@
 				9ECC6C56438F0B7B50D5B99650917DE3 /* Pods-iot-ble */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95CAF2B65883CFD94506DF009FB13799 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E503BD01C44ECAF91D6420D6AFE614A3 /* BlueCapKit.modulemap */,
+				F1F7ABAF0B50C4B28FC8CB207951E0AC /* BlueCapKit.xcconfig */,
+				33151ACCC4D1CEC55F900C9409FEAE7D /* BlueCapKit-dummy.m */,
+				328ABB92E0BCCF1C286D9F1D11EED853 /* BlueCapKit-prefix.pch */,
+				B4DE891DED2E62B2BAC4B440284FF3D4 /* BlueCapKit-umbrella.h */,
+				DD2157667ED3E319F4F7822321CC422C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BlueCapKit";
 			sourceTree = "<group>";
 		};
 		9ECC6C56438F0B7B50D5B99650917DE3 /* Pods-iot-ble */ = {
@@ -175,48 +271,11 @@
 			path = "Target Support Files/Pods-iot-ble";
 			sourceTree = "<group>";
 		};
-		BB7C96CC98A767203B31ED9D8E673C10 /* BluetoothKit */ = {
+		FFBF1BB208EF43090C2A4BDCD82F149F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E15183ABE2C6B62178FDB3580F4AE3FC /* BKAvailability.swift */,
-				ADEEAFA102690E54C01237CF0318374E /* BKCBCentralManagerDelegateProxy.swift */,
-				084D421D38CB759602DA46B8DB0810CD /* BKCBPeripheralDelegateProxy.swift */,
-				4AFFF32AAB2E9721C2DA688AAFD3D122 /* BKCBPeripheralManagerDelegateProxy.swift */,
-				2E3D30582403724C3B03A2D68B460586 /* BKCental.swift */,
-				89C7187C70C7B0C89331BDE178338692 /* BKCentralStateMachine.swift */,
-				D65C44232FD2EB8BEA139D583B625095 /* BKConfiguration.swift */,
-				8EF366D92353BA8DDB7B12DD94CC18A8 /* BKConnectionAttempt.swift */,
-				AA152403C3A3F9411679798F4C756916 /* BKConnectionPool.swift */,
-				29212626E94ECE1BFE79695B31808217 /* BKContinuousScanner.swift */,
-				0646EE47D4A6A0E558225F582B62006F /* BKDiscoveriesChange.swift */,
-				702C1F2D6DDA5D95406439661BCD3A60 /* BKDiscovery.swift */,
-				5DEEB482C569DEC8BF9D41ABB222BB7A /* BKPeripheral.swift */,
-				ADA60B87103CB93FD631BF5F3DEDFA5F /* BKPeripheralConfiguration.swift */,
-				AD05C0EBBCE5BDBAC37399E2A7D1D047 /* BKPeripheralStateMachine.swift */,
-				161D3B683FC2D947C67C90E3A9BDF0FF /* BKRemoteCentral.swift */,
-				9C8045C319CCDE5FEB916E93EBAE1DE6 /* BKRemotePeripheral.swift */,
-				3E029DBC430CBABB9ABE0EE319524B50 /* BKScanner.swift */,
-				2F96CF82EDE14A375CDF861011B860BE /* BKSendDataTask.swift */,
-				7FFD7C85C7B9512E04B5E1988E759725 /* BluetoothKit.h */,
-				589F0435673200082FADC3FDC0754E30 /* Support Files */,
-			);
-			name = BluetoothKit;
-			path = BluetoothKit;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CCAF3B55449470B778AD13BE7D51F208 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BD10816744543AF1BCDC32E71183F5C9 /* BluetoothKit.framework */,
-				70DBE7A075FDA36AFF259329AE63C593 /* Pods_iot_ble.framework */,
+				F909580251C8E140CEC45C03C40686C1 /* BlueCapKit.framework */,
+				7D86953F81DF35D0B5B8EA710102EC5D /* Pods_iot_ble.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,59 +283,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46759CB4391A2850514D6DB59145030D /* Headers */ = {
+		6085E482DA0E8DAA5CE658D9F873CC15 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BC60D0AE6725E2E14122EF5F56ED291 /* BluetoothKit-umbrella.h in Headers */,
-				D741CF3A0701E3C331011A67D587FD0C /* BluetoothKit.h in Headers */,
+				E427D887127A3F0CE5657F7546040F86 /* Pods-iot-ble-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C367179B1256B98D3E6D95367741C7B /* Headers */ = {
+		D5F478A85A76DB15B62394A91D355B90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C04E2F2F966CBB44D26885648E1008F /* Pods-iot-ble-umbrella.h in Headers */,
+				D7A94AE335EC906265DEDEF1DC31F2F3 /* BlueCapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		725E867502048C5151CFC46337E7D43C /* Pods-iot-ble */ = {
+		65A06356B54F668A3778EE5BB62782D1 /* BlueCapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 175CF16C38638E0D76410ABFFC70C9BD /* Build configuration list for PBXNativeTarget "Pods-iot-ble" */;
+			buildConfigurationList = 1EDEB98A22B6CF60F0B07F54D118E0E5 /* Build configuration list for PBXNativeTarget "BlueCapKit" */;
 			buildPhases = (
-				E330A9C5750E6A74397D0E7A102B7581 /* Sources */,
-				F6FDD373334EE71302862283B3279B90 /* Frameworks */,
-				6C367179B1256B98D3E6D95367741C7B /* Headers */,
+				6E9E96907B63DCC136EBE66B8D301BDC /* Sources */,
+				3AE6790DB3019D218163DE1B2C5318A0 /* Frameworks */,
+				D5F478A85A76DB15B62394A91D355B90 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				587304C40569A861233A30F482A964C6 /* PBXTargetDependency */,
+			);
+			name = BlueCapKit;
+			productName = BlueCapKit;
+			productReference = F909580251C8E140CEC45C03C40686C1 /* BlueCapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77E96D88D80800FF4097C468A3B65C52 /* Pods-iot-ble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470184DF76BBFDAB60333BAB12B5994C /* Build configuration list for PBXNativeTarget "Pods-iot-ble" */;
+			buildPhases = (
+				9121728A457A88E78BCF9936C60C3212 /* Sources */,
+				0DD0A40BA37E213972866525CC569DA1 /* Frameworks */,
+				6085E482DA0E8DAA5CE658D9F873CC15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CEA73128EB2D069A1129D65CE213B3E /* PBXTargetDependency */,
 			);
 			name = "Pods-iot-ble";
 			productName = "Pods-iot-ble";
-			productReference = 70DBE7A075FDA36AFF259329AE63C593 /* Pods_iot_ble.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E814B32650A99E2BD65693AEBE902025 /* BluetoothKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 91C0A3B6CFD6576C2B4637B59BB0892A /* Build configuration list for PBXNativeTarget "BluetoothKit" */;
-			buildPhases = (
-				3EEAD4B4697787E550EBB4F5B9C1AF67 /* Sources */,
-				1B0A45C1ECF6EBD59FE82D4402504CC4 /* Frameworks */,
-				46759CB4391A2850514D6DB59145030D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BluetoothKit;
-			productName = BluetoothKit;
-			productReference = BD10816744543AF1BCDC32E71183F5C9 /* BluetoothKit.framework */;
+			productReference = 7D86953F81DF35D0B5B8EA710102EC5D /* Pods_iot_ble.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -296,67 +354,85 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCAF3B55449470B778AD13BE7D51F208 /* Products */;
+			productRefGroup = FFBF1BB208EF43090C2A4BDCD82F149F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E814B32650A99E2BD65693AEBE902025 /* BluetoothKit */,
-				725E867502048C5151CFC46337E7D43C /* Pods-iot-ble */,
+				65A06356B54F668A3778EE5BB62782D1 /* BlueCapKit */,
+				77E96D88D80800FF4097C468A3B65C52 /* Pods-iot-ble */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3EEAD4B4697787E550EBB4F5B9C1AF67 /* Sources */ = {
+		6E9E96907B63DCC136EBE66B8D301BDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02AEAF365409B63DA0D7812E7F4C102B /* BKAvailability.swift in Sources */,
-				B50B10E81FFF574FE70DCAC581A5C3C4 /* BKCBCentralManagerDelegateProxy.swift in Sources */,
-				8651A052AF6B24B8156176D68546AE76 /* BKCBPeripheralDelegateProxy.swift in Sources */,
-				DF6FDD8F70E0A9E9F6093CB1F0078F4C /* BKCBPeripheralManagerDelegateProxy.swift in Sources */,
-				E2A6E971E3EB3D0340FFC4CA1BB1738B /* BKCental.swift in Sources */,
-				0AF7ED58EA73C7D1C20B4396F2B5F234 /* BKCentralStateMachine.swift in Sources */,
-				7C243906DD0F512E79B1719DA22ADD63 /* BKConfiguration.swift in Sources */,
-				124D0CAB009670402AC5C2811201D565 /* BKConnectionAttempt.swift in Sources */,
-				852CA8F407FD445A1B6B5A4E2CDB440C /* BKConnectionPool.swift in Sources */,
-				6E2AAD0B49406D6321E1BD1FA497307A /* BKContinuousScanner.swift in Sources */,
-				30E0539EAC9E17CB1CFA432EABA9F8DF /* BKDiscoveriesChange.swift in Sources */,
-				7FE30B6906F54D60F560704B49058C92 /* BKDiscovery.swift in Sources */,
-				B11FC6E88FD81B1CEEF745C7CE80C119 /* BKPeripheral.swift in Sources */,
-				5EBC0869D827D6D52D36741D63F79E64 /* BKPeripheralConfiguration.swift in Sources */,
-				EDFC1B19F79918C731C9D702E034BB21 /* BKPeripheralStateMachine.swift in Sources */,
-				A927254BDB3114B61DAE5EA002D7D362 /* BKRemoteCentral.swift in Sources */,
-				F9BD6F2217DA90FC7720697031EA5AAB /* BKRemotePeripheral.swift in Sources */,
-				59F4241A2D5B4F932AC3D62CF8C6D61C /* BKScanner.swift in Sources */,
-				2EBEB8106EFFC9B875B4BFCB4EFE4810 /* BKSendDataTask.swift in Sources */,
-				6579F1443A60C6A744DD5BAB050E9803 /* BluetoothKit-dummy.m in Sources */,
+				2CBC29EED483AC4D429D25C2B5B45AD6 /* Beacon.swift in Sources */,
+				BF0A44CD3C196DD1216A9FB658B8E6AA /* BeaconManager.swift in Sources */,
+				93E394ED7B4CE8E8EC3CFE7F506E60B5 /* BeaconRegion.swift in Sources */,
+				95E86D66B1E0B6F9C8C053CDDE20471A /* BLESIGGATTProfiles.swift in Sources */,
+				6B9DFA95296520A7039AA0E11BA9730C /* BlueCapKit-dummy.m in Sources */,
+				9A0D8EABE5090C89E0CBCF991F76EFDE /* CentralManager.swift in Sources */,
+				8196C63FB8F75AB6F3E7392605107350 /* Characteristic.swift in Sources */,
+				D981C19CED6080496785376E8FB53F76 /* CharacteristicProfile.swift in Sources */,
+				20BEAB2FE056F06C279612530143C918 /* CircularRegion.swift in Sources */,
+				65B35F7D5A5A566E6C9916DFE60D9077 /* CLProximityExtension.swift in Sources */,
+				8B066FE25B14A21F4627A9B409C1296C /* Data+Serializable.swift in Sources */,
+				E71025AC712334DAAF713242EA09452E /* Double+BlueCap.swift in Sources */,
+				39FE0BCE8ACDF61119A4B43CA663DC63 /* Errors.swift in Sources */,
+				EE8C008907F71F6C98C4C4C3FFF15DF3 /* GnosusProfiles.swift in Sources */,
+				E5629D38E58B9E52608A023B27F25039 /* Injectables.swift in Sources */,
+				B42720BEE466F01ADDAAEF87B9268A0F /* Int16+Deserializable.swift in Sources */,
+				02E61796589EC5F983F5B1185DBE2A23 /* Int32+Deserializable.swift in Sources */,
+				71620156C508FFFA0A0190CDFBCE67B5 /* Int8+Deserializable.swift in Sources */,
+				259D955293D6EC4503C5E232D4E318C3 /* LocationManager.swift in Sources */,
+				F472C0E4F6DEA65C5BFB29A44A5713B2 /* Logger.swift in Sources */,
+				0761859A92648D8FF02F36526D171660 /* MutableCharacteristic.swift in Sources */,
+				4F918655C74F08DAF0C8E2862FB21935 /* MutableService.swift in Sources */,
+				7860A58F2A927AAE8435CC604BFDDDEF /* NordicProfiles.swift in Sources */,
+				159C42BE936E9A125DB3AFE301F93FF9 /* Peripheral.swift in Sources */,
+				A911AD2B6B972F8DD85CDF02D12C8B22 /* PeripheralManager.swift in Sources */,
+				8D7A7C28A3C9BD5963F3379F34D205A4 /* ProfileManager.swift in Sources */,
+				9CA5140CFA2FB230AA5A0E95A4DACCA6 /* Region.swift in Sources */,
+				73808B2F2F758D2892FE1ACF3111DB69 /* RegionManager.swift in Sources */,
+				30758CD9C1C2A3B25BDC01DD9275D813 /* SerDe.swift in Sources */,
+				EC0608A22A971CCD14ED6DC6E6E8D513 /* Service.swift in Sources */,
+				EA812D2FFB3293E42566805F83228653 /* ServiceProfile.swift in Sources */,
+				B09D8CE3528EB210232D4AFB0379A032 /* ServiceProfileUtils.swift in Sources */,
+				764DA5061CE740DC322C57CFF889C6DA /* SimpleFutures.swift in Sources */,
+				D2DEA711462FF1D03F9FA6BC061208C6 /* String+BlueCap.swift in Sources */,
+				3775EE3FB80CE32C9331DC70886A8B97 /* TiSensorTagProfiles.swift in Sources */,
+				DD58339526749B732B128539321058BA /* UInt16+Deserializable.swift in Sources */,
+				E2C6C21F839BF27779BFFA4996459FDC /* UInt32+Deserializable.swift in Sources */,
+				05A941974562B3D8EEA8AB6763093479 /* Uint8+Deserializable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E330A9C5750E6A74397D0E7A102B7581 /* Sources */ = {
+		9121728A457A88E78BCF9936C60C3212 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EAFEAD007DA854C57B67B23917B034B /* Pods-iot-ble-dummy.m in Sources */,
+				0775591A8CD921D8D372A572A5FACF13 /* Pods-iot-ble-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		587304C40569A861233A30F482A964C6 /* PBXTargetDependency */ = {
+		2CEA73128EB2D069A1129D65CE213B3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = BluetoothKit;
-			target = E814B32650A99E2BD65693AEBE902025 /* BluetoothKit */;
-			targetProxy = 5C09BD277DBD742D070976B461BE608C /* PBXContainerItemProxy */;
+			name = BlueCapKit;
+			target = 65A06356B54F668A3778EE5BB62782D1 /* BlueCapKit */;
+			targetProxy = 7B847C0EE13B2A49FF95D6ABA63FD31C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4B20A609C4AC15FCD4E27D16E6F96FD5 /* Release */ = {
+		002702D1C23B045863E9A39D8A133A10 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A93ADBD42A115FFE495C56C5A132DD2 /* BluetoothKit.xcconfig */;
+			baseConfigurationReference = 977296DF03C3CC0D0861DF6FBE8F663F /* Pods-iot-ble.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -369,14 +445,49 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BluetoothKit/BluetoothKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BluetoothKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-iot-ble/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BluetoothKit/BluetoothKit.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iot-ble/Pods-iot-ble.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BluetoothKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iot_ble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FF5FC93471CDADB9EE2989A3A43006F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F7ABAF0B50C4B28FC8CB207951E0AC /* BlueCapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueCapKit/BlueCapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueCapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlueCapKit/BlueCapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BlueCapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -426,44 +537,9 @@
 			};
 			name = Release;
 		};
-		9645B226D246BCF60E73421A1CC66CBB /* Release */ = {
+		92955E801261D3D4B8AC7041E9103BA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 977296DF03C3CC0D0861DF6FBE8F663F /* Pods-iot-ble.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iot-ble/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iot-ble/Pods-iot-ble.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_iot_ble;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ABA93DCE88925D32F820D97001EC055A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A93ADBD42A115FFE495C56C5A132DD2 /* BluetoothKit.xcconfig */;
+			baseConfigurationReference = C4485C46905923D02A85B8FE5150929C /* Pods-iot-ble.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -476,14 +552,50 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BluetoothKit/BluetoothKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BluetoothKit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-iot-ble/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BluetoothKit/BluetoothKit.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iot-ble/Pods-iot-ble.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = BluetoothKit;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iot_ble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C608717C511B282613088999E7235388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F7ABAF0B50C4B28FC8CB207951E0AC /* BlueCapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BlueCapKit/BlueCapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueCapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BlueCapKit/BlueCapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BlueCapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -538,50 +650,14 @@
 			};
 			name = Debug;
 		};
-		E636A31A543480ACD3DFAC2FDD43C834 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4485C46905923D02A85B8FE5150929C /* Pods-iot-ble.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iot-ble/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-iot-ble/Pods-iot-ble.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_iot_ble;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		175CF16C38638E0D76410ABFFC70C9BD /* Build configuration list for PBXNativeTarget "Pods-iot-ble" */ = {
+		1EDEB98A22B6CF60F0B07F54D118E0E5 /* Build configuration list for PBXNativeTarget "BlueCapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E636A31A543480ACD3DFAC2FDD43C834 /* Debug */,
-				9645B226D246BCF60E73421A1CC66CBB /* Release */,
+				C608717C511B282613088999E7235388 /* Debug */,
+				1FF5FC93471CDADB9EE2989A3A43006F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -595,11 +671,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91C0A3B6CFD6576C2B4637B59BB0892A /* Build configuration list for PBXNativeTarget "BluetoothKit" */ = {
+		470184DF76BBFDAB60333BAB12B5994C /* Build configuration list for PBXNativeTarget "Pods-iot-ble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ABA93DCE88925D32F820D97001EC055A /* Debug */,
-				4B20A609C4AC15FCD4E27D16E6F96FD5 /* Release */,
+				92955E801261D3D4B8AC7041E9103BA4 /* Debug */,
+				002702D1C23B045863E9A39D8A133A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

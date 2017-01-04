@@ -6,6 +6,7 @@ target 'iot-ble' do
   use_frameworks!
 
   # Pods for iot-ble
-  pod 'BluetoothKit', '~> 0.2.0'
+  pod 'BlueCapKit', '~> 0.3'
+
 
 end

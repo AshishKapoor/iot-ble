@@ -1,12 +1,12 @@
 PODS:
-  - BluetoothKit (0.2.1)
+  - BlueCapKit (0.3.0)
 
 DEPENDENCIES:
-  - BluetoothKit (~> 0.2.0)
+  - BlueCapKit (~> 0.3)
 
 SPEC CHECKSUMS:
-  BluetoothKit: c1dfd8f529a1d4d2c0778b97a8937b5b68c75395
+  BlueCapKit: 13581daef06b15921119641ca8b5a150fedfce49
 
-PODFILE CHECKSUM: cf5bce3569cc98a4799f6643bbb54fce13a6b9fe
+PODFILE CHECKSUM: 0cbf82b4845b58a1b00b4ae1573f28b4711d66f2
 
 COCOAPODS: 1.1.1
