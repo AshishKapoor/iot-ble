@@ -10,38 +10,33 @@ import UIKit
 import CoreBluetooth
 
 class ViewController: UIViewController, CBCentralManagerDelegate {
-    
+
+    var centralManager: CBCentralManager!
+    var peripheral: CBPeripheral!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        var centralManager: CBCentralManager!
-//        var peripheral: CBPeripheral
-        
         centralManager = CBCentralManager(delegate: self, queue: nil)
-
-        // Start scanning.
-        centralManager.scanForPeripherals(withServices: nil, options: nil)
-        
-        // Stop scan
-        // centralManager.stopScan()
-        
-        // Start connecting
-//        centralManager.connect(peripheral, options: nil)
-        
     }
     
     // Scan Receive the update of central manager’s state. **Required**
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         print("state: \(central.state)")
+        centralManager.scanForPeripherals(withServices:nil, options: nil)
+
     }
     
-    func centralManager(central: CBCentralManager,
-                        didDiscoverPeripheral peripheral: CBPeripheral,
-                        advertisementData: [String : AnyObject],
-                        RSSI: NSNumber!) {
+    func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
         print("peripheral: \(peripheral)")
     }
     
+//    func centralManager(central: CBCentralManager,
+//                        didDiscoverPeripheral peripheral: CBPeripheral,
+//                        advertisementData: [String : AnyObject],
+//                        RSSI: NSNumber!) {
+//        print("peripheral: \(peripheral)")
+//    }
+//    
     func centralManagerDidUpdateState(central: CBCentralManager!){
         print("CentralManager is initialized")
         
@@ -52,6 +47,8 @@ class ViewController: UIViewController, CBCentralManagerDelegate {
             print("Bluetooth is currently powered off.")
         case CBManagerState.poweredOn:
             print("Bluetooth is currently powered on and available to use.")
+            centralManager.scanForPeripherals(withServices: nil, options: nil)
+
         default:break
         }
     }
