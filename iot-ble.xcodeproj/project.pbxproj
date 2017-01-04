@@ -12,6 +12,7 @@
 		2DA359921E1D26A600783DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA359901E1D26A600783DE1 /* Main.storyboard */; };
 		2DA359941E1D26A600783DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA359931E1D26A600783DE1 /* Assets.xcassets */; };
 		2DA359971E1D26A600783DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA359951E1D26A600783DE1 /* LaunchScreen.storyboard */; };
+		C5813594F598437B26BC2F9A /* Pods_iot_ble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A4F2A8F56A56AAFDBA861D /* Pods_iot_ble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		2DA359931E1D26A600783DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA359961E1D26A600783DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DA359981E1D26A600783DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A4F2A8F56A56AAFDBA861D /* Pods_iot_ble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iot_ble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A10C864991F283D5C6C5DA2 /* Pods-iot-ble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iot-ble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iot-ble/Pods-iot-ble.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC5F2566B1858331828C5B2 /* Pods-iot-ble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iot-ble.release.xcconfig"; path = "Pods/Target Support Files/Pods-iot-ble/Pods-iot-ble.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5813594F598437B26BC2F9A /* Pods_iot_ble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				2DA3598B1E1D26A600783DE1 /* iot-ble */,
 				2DA3598A1E1D26A600783DE1 /* Products */,
+				D8D82A688A60AFCFF2CCCF5C /* Pods */,
+				D3CF1D713B4DE470D177BDC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = "iot-ble";
 			sourceTree = "<group>";
 		};
+		D3CF1D713B4DE470D177BDC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35A4F2A8F56A56AAFDBA861D /* Pods_iot_ble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8D82A688A60AFCFF2CCCF5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A10C864991F283D5C6C5DA2 /* Pods-iot-ble.debug.xcconfig */,
+				BEC5F2566B1858331828C5B2 /* Pods-iot-ble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DA3599B1E1D26A600783DE1 /* Build configuration list for PBXNativeTarget "iot-ble" */;
 			buildPhases = (
+				8BD14C0F98B50445387F1CDB /* [CP] Check Pods Manifest.lock */,
 				2DA359851E1D26A600783DE1 /* Sources */,
 				2DA359861E1D26A600783DE1 /* Frameworks */,
 				2DA359871E1D26A600783DE1 /* Resources */,
+				3DA270732F79E7539274D77A /* [CP] Embed Pods Frameworks */,
+				48F74250F3EC04D909BE198F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DA270732F79E7539274D77A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iot-ble/Pods-iot-ble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48F74250F3EC04D909BE198F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iot-ble/Pods-iot-ble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD14C0F98B50445387F1CDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2DA359851E1D26A600783DE1 /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		2DA3599C1E1D26A600783DE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A10C864991F283D5C6C5DA2 /* Pods-iot-ble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iot-ble/Info.plist";
@@ -270,6 +346,7 @@
 		};
 		2DA3599D1E1D26A600783DE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC5F2566B1858331828C5B2 /* Pods-iot-ble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iot-ble/Info.plist";
