@@ -12,6 +12,7 @@ import CoreBluetooth
 class ViewController: UIViewController, CBCentralManagerDelegate {
 
     var centralManager: CBCentralManager!
+    
     var peripheral: CBPeripheral!
 
     override func viewDidLoad() {
@@ -30,66 +31,29 @@ class ViewController: UIViewController, CBCentralManagerDelegate {
         print("peripheral: \(peripheral)")
     }
     
-//    func centralManager(central: CBCentralManager,
-//                        didDiscoverPeripheral peripheral: CBPeripheral,
-//                        advertisementData: [String : AnyObject],
-//                        RSSI: NSNumber!) {
-//        print("peripheral: \(peripheral)")
-//    }
-//    
     func centralManagerDidUpdateState(central: CBCentralManager!){
         print("CentralManager is initialized")
         
-        switch central.state{
+        switch central.state {
+            
         case CBManagerState.unauthorized:
             print("The app is not authorized to use Bluetooth low energy.")
+            
         case CBManagerState.poweredOff:
             print("Bluetooth is currently powered off.")
+            
         case CBManagerState.poweredOn:
             print("Bluetooth is currently powered on and available to use.")
+
             centralManager.scanForPeripherals(withServices: nil, options: nil)
 
         default:break
         }
     }
     
-    
-//    func peripheralManagerDidUpdateState(peripheral: CBPeripheralManager!) {
-//        
-//        var statusMessage = ""
-//        
-//        switch peripheral.state {
-//            case CBManagerState.poweredOn:
-//                statusMessage = "Bluetooth Status: Turned On"
-//                
-//            case CBManagerState.poweredOff:
-//                statusMessage = "Bluetooth Status: Turned Off"
-//                
-//            case CBManagerState.resetting:
-//                statusMessage = "Bluetooth Status: Resetting"
-//                
-//            case CBManagerState.unauthorized:
-//                statusMessage = "Bluetooth Status: Not Authorized"
-//                
-//            case CBManagerState.unsupported:
-//                statusMessage = "Bluetooth Status: Not Supported"
-//
-//            default:
-//                statusMessage = "Bluetooth Status: Unknown"
-//        }
-//        
-//        print(statusMessage)
-//        
-//        if peripheral.state == CBManagerState.poweredOff {
-//            //TODO: Update this property in an App Manager class
-//        }
-//    }
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
