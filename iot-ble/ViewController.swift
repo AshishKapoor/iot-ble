@@ -3,7 +3,7 @@
 //  iot-ble
 //
 //  Created by Ashish Kapoor on 04/01/17.
-//  Copyright © 2017 Ashish Kapoor. All rights reserved.
+//  Copyright © 2017 Kapoor.tech All rights reserved.
 //
 
 import UIKit
@@ -27,7 +27,10 @@ class ViewController: UIViewController, CBCentralManagerDelegate {
     
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
         print("peripheral's Name: \(peripheral.name!)")
-        print("peripheral's Identifier: \(peripheral.identifier)\n")
+        print("peripheral's Identifier: \(peripheral.identifier)")
+        print("Advertisment Data: \(advertisementData)")
+        print("RSSI Number: \(RSSI)\n")
+        
     }
     
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
@@ -45,8 +48,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate {
     }
     
     func centralManagerDidUpdateState(central: CBCentralManager!){
-        print("CentralManager is initialized")
-        
+        print("CentralManager is initialized")        
         switch central.state {
         case CBManagerState.unauthorized:
             print("The app is not authorized to use Bluetooth low energy.")
